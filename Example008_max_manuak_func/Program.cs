@@ -1,4 +1,6 @@
-﻿int Max(int arg1, int arg2, int arg3)
+﻿using static System.Console;
+
+int Max(int arg1, int arg2, int arg3)
 {
     int result = arg1;
     if (arg2 > result)
@@ -24,4 +26,4 @@ int max3 = Max(a3, b3, c3);
 
 int max = Max(max1, max2, max3);
 
-Console.WriteLine(max);
+WriteLine(max);
